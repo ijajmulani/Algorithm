@@ -1,6 +1,8 @@
 package main
 
 import "fmt"
+// Decorator pattern is a structural design pattern that allows you to dynamically add behavior to an object at runtime without altering the object's class.
+In the context of a car, you can use the Decorator pattern to add features like air conditioning, sunroof, or navigation system to a basic car object.
 
 // Car interface defines the methods that any Car object must implement.
 type Car interface {
